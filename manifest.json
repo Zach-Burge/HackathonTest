@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "IMLeagues AdBlocker",
+    "description": "Blocking ads on IMLeagues.",
+    "version": "0.0.1",
+    "author": "Zach Burge, Cole Elfstrom, Graham Sabin, Ian Flury",
+    "browser_action": {
+        "default_title": "IMLeagues AdBlocker"
+    },
+    "permissions": [
+        "tabs",
+        "webNavigation",
+        "https://www.imleagues.com/"
+    ],
+    "background": {
+        "scripts": [
+            "extension.js"
+        ]
+    }
+}
